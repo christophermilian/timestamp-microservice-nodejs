@@ -1,0 +1,36 @@
+{
+  "name": "timestamp-microservice-nodejs",
+  "version": "1.0.0",
+  "description": "A microservice that returns unix and utc timestamps.",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js",
+    "format": "prettier --write \"*.js\"",
+    "lint": "eslint \"*.js\" --fix"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/christophermilian/timestamp-microservice-nodejs.git"
+  },
+  "keywords": [
+    "node",
+    "express"
+  ],
+  "author": "Christopher Milian",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/christophermilian/timestamp-microservice-nodejs/issues"
+  },
+  "homepage": "https://github.com/christophermilian/timestamp-microservice-nodejs#readme",
+  "dependencies": {
+    "cors": "^2.8.0",
+    "body-parser": "^1.15.2",
+    "cookie-parser": "^1.4.3",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1",
+    "prettier": "^3.0.0"
+  }
+}

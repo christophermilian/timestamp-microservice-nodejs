@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+
+<html>
+   <head>
+      <title>Timestamp Microservice</title>
+      <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet" type="text/css">
+      <link href="style.css" rel="stylesheet" type="text/css">
+   </head>
+
+   <body>
+    <h1>Timestamp Microservice</h1>
+    <hr />
+    <div class="container">
+      <h3>Available Endpoints:</h3>
+      <ul>
+        <li>http://localhost:49580/api/:date?</li>
+      </ul>
+
+      <h3>Example Usages and Outputs:</h3>
+      <ul>
+        <li><a href="api/2023-10-06">http://localhost:49580/api/2023-10-06</a></li>
+        <code>{ "unix": 1696550400000, "utc": "Fri, 06 Oct 2023 00:00:00 GMT" }</code>
+        <li></li>
+        <li><a href="api/1703462400000">http://localhost:49580/api/1703462400000</a></li>
+        <code>{ "unix":1703462400000, "utc": "Mon, 25 Dec 2023 00:00:00 GMT" }</code>
+        <li></li>
+        <li><a href="api/">http://localhost:49580/api/</a></li>
+        <code>{ "unix": 1701039296038, "utc": "Sun, 26 Nov 2023 22:54:56 GMT" }</code>
+      </ul>
+
+      <h3>Created with JavaScript and Node.js.</h3>
+    </div>
+    <div class="footer">
+      <p>
+        By <a href="https://www.linkedin.com/in/christophermilian/">Christopher Milian</a>
+      </p>
+    </div>
+  </body>
+</html>
